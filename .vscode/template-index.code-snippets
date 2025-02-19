@@ -1,0 +1,32 @@
+{
+
+	 "Print to console": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "ini",
+	 	"body": [
+	 		"import React from 'react'",
+			"import { View, StyleSheet } from 'react-native'",
+			"import {$1} from '$2'",
+	 		"		",
+			"export default () => ( ",
+    		"	<View style={style.App}>",
+		    "	$3",
+			"	</View>",
+			")",
+			"	",
+			"const style = StyleSheet.create({",
+				"	App: {",
+					"	flexGrow: 1,",
+					"	justifyContent: 'center',",
+					"	alignItems: 'center',",
+					"	padding: 20",
+				"	},",
+			"	",
+			"})",
+			
+			
+			
+	 	],
+	 	"description": "Log output to console"
+	 }
+}
